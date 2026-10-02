@@ -5,25 +5,114 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/past-events", "destination": "/exhibitions/", "permanent": true },
-    { "source": "/art-drops", "destination": "/drops/", "permanent": true },
-    { "source": "/join-the-dao", "destination": "/contact/", "permanent": true },
-    { "source": "/team", "destination": "/about/", "permanent": true },
-    { "source": "/articles", "destination": "/journal/", "permanent": true },
-    { "source": "/category/interviews", "destination": "/journal/", "permanent": true },
-    { "source": "/interview-with-dustn", "destination": "/journal/dustn/", "permanent": true },
-    { "source": "/interview-artie-handz", "destination": "/journal/artie-handz/", "permanent": true },
-    { "source": "/interview-with-danil-pan", "destination": "/journal/danil-pan/", "permanent": true },
-    { "source": "/interview-with-max-kulchinksy", "destination": "/journal/max-kulchinsky/", "permanent": true },
-    { "source": "/interview-with-cliffballin", "destination": "/journal/cliff/", "permanent": true },
-    { "source": "/interview-with-emotionull", "destination": "/journal/emotionull/", "permanent": true },
-    { "source": "/submit-your-art-for-eth-denver-here", "destination": "/exhibitions/art-on-tap/", "permanent": true }
+    {
+      "source": "/past-events",
+      "destination": "/exhibitions/",
+      "permanent": true
+    },
+    {
+      "source": "/art-drops",
+      "destination": "/drops/",
+      "permanent": true
+    },
+    {
+      "source": "/join-the-dao",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/team",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/articles",
+      "destination": "/journal/",
+      "permanent": true
+    },
+    {
+      "source": "/category/interviews",
+      "destination": "/journal/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-with-dustn",
+      "destination": "/journal/dustn/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-artie-handz",
+      "destination": "/journal/artie-handz/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-with-danil-pan",
+      "destination": "/journal/danil-pan/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-with-max-kulchinksy",
+      "destination": "/journal/max-kulchinsky/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-with-cliffballin",
+      "destination": "/journal/cliff/",
+      "permanent": true
+    },
+    {
+      "source": "/interview-with-emotionull",
+      "destination": "/journal/emotionull/",
+      "permanent": true
+    },
+    {
+      "source": "/submit-your-art-for-eth-denver-here",
+      "destination": "/exhibitions/art-on-tap/",
+      "permanent": true
+    },
+    {
+      "source": "/burrito-guides-how-2-mint-on-op",
+      "destination": "/journal/how-to-mint-on-op/",
+      "permanent": true
+    },
+    {
+      "source": "/manifold-walkthrough",
+      "destination": "/journal/manifold-walkthrough/",
+      "permanent": true
+    },
+    {
+      "source": "/nfts-how-to-get-involved",
+      "destination": "/journal/nfts-how-to-get-involved/",
+      "permanent": true
+    },
+    {
+      "source": "/category/tips-tricks",
+      "destination": "/journal/",
+      "permanent": true
+    },
+    {
+      "source": "/category/articles",
+      "destination": "/journal/",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-      { "key": "X-Frame-Options", "value": "DENY" }
-    ]}
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
   ]
 }

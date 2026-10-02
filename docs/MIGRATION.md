@@ -8,7 +8,8 @@ Reviewed 2 October 2026 through the user’s Chrome session. The WordPress JSON 
 - Past Events: Super Burrito 366; Miami: Intertwined; Burrito & the Bean; NYC: Burrito Bazaar; ETH Denver: Art on Tap; Miami: Think Less, Vibe More.
 - Six interview Q&A archives: DUSTN (Haley, 11 Oct 2022), Artie Handz (Mew, 21 Sep 2022), Danil Pan (Mew, 23 Feb 2022), Max Kulchinsky (Mew, 5 Feb 2022), Cliff (Mew, 18 Jan 2022), emotionull (19 Aug 2021, conversation with MoFY’s Crypto Joe). New introductions and shorter question wording; responses preserved with typographic normalization. Old tweets, sales embeds, comment forms, and duplicated sidebars omitted.
 - Team names preserved as historical contributors; old job titles are not represented as current roles.
-- Public contact email, Spotify podcast, and Discord link from the collective’s Linktree.
+- Public contact email, Spotify podcast, and Discord link from the collective’s Linktree. The invite resolves to `https://discord.com/invite/Vmg62sn7J4` and visibly shows Burrito Bar; the site now uses that direct invite.
+- Three historical guides recovered from Tips & Tricks: How 2 Mint on OP (30 March 2024), Manifold Walkthrough (16 September 2022), and NFTs: How To Get Involved (29 March 2021). These are explicitly labeled archival, with expired-call context and no implication that old platform instructions remain current.
 
 ## New verified modules from X
 
@@ -41,7 +42,7 @@ The six older event photographs were referenced on the old page but were not rec
 
 The legacy Articles page is visibly broken and prints WordPress shortcodes. Legacy Art Drops renders no content. Their replacements are rebuilt indexes populated from verified sources.
 
-Before retiring WordPress entirely, retain a host backup/export of its database and uploads. Older minting tutorials and any uncrawled category/archive pages are not assumed to be current guidance. Do not delete the old host’s only copy of that material.
+Before retiring WordPress entirely, retain a host backup/export of its database and uploads. The three recovered minting tutorials are preserved as historical text, not current guidance. Uncrawled category/archive pages and missing media may remain in the old database. Do not delete the old host’s only copy of that material.
 
 ## Editorial details to enrich
 
