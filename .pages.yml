@@ -1,0 +1,135 @@
+media:
+  input: public/images
+  output: /images
+content:
+  - name: site
+    label: Site settings & links
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: name, type: string, required: true }
+      - { name: tagline, type: string }
+      - { name: description, type: text }
+      - { name: email, type: string, required: true }
+      - { name: discord, label: Discord invite URL, type: string, required: true }
+      - { name: twitter, type: string }
+      - { name: podcast, type: string }
+      - { name: rarible, type: string }
+      - { name: featuredExhibition, label: Homepage exhibition slug, type: string, required: true }
+      - { name: lastReviewed, type: string }
+  - name: exhibitions
+    label: Exhibitions & events
+    type: file
+    path: content/exhibitions.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, label: URL slug (keep stable), type: string, required: true }
+      - { name: title, type: string, required: true }
+      - { name: subtitle, type: string }
+      - { name: city, type: string, required: true }
+      - { name: year, type: string, required: true }
+      - { name: dateLabel, label: Display date, type: string, required: true }
+      - name: status
+        type: select
+        options:
+          values: [Past exhibition, Upcoming exhibition, Current exhibition]
+      - { name: type, label: Format, type: string, required: true }
+      - { name: venue, type: string }
+      - { name: image, type: image }
+      - { name: imageAlt, label: Image description, type: string }
+      - { name: credit, label: Artwork & photo credit, type: string }
+      - { name: summary, type: text, required: true }
+      - { name: body, label: Story paragraphs, type: text, list: true }
+      - { name: artists, label: Artist slugs, type: string, list: true }
+      - { name: partners, type: string, list: true }
+      - { name: sources, label: Source URLs, type: string, list: true }
+      - name: gallery
+        type: object
+        list: true
+        fields:
+          - { name: image, type: image }
+          - { name: alt, type: string }
+          - { name: credit, type: string }
+      - { name: rsvp, label: RSVP URL (upcoming events only), type: string }
+  - name: calls
+    label: Open calls
+    type: file
+    path: content/calls.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: title, type: string, required: true }
+      - { name: location, type: string }
+      - name: status
+        type: select
+        options:
+          values: [open, closed]
+      - { name: deadline, label: Deadline with timezone (e.g. 2027-01-15T23:59:00-05:00), type: string }
+      - { name: deadlineLabel, label: Human-readable deadline and timezone, type: string }
+      - { name: summary, type: text }
+      - { name: requirements, type: string, list: true }
+      - { name: submissionUrl, label: Live submission form URL, type: string }
+      - { name: source, type: string }
+      - { name: exhibition, label: Related exhibition slug, type: string }
+      - { name: fee, label: Fees or no fee, type: string }
+      - { name: rights, label: Artwork usage and rights terms, type: text }
+  - name: artists
+    label: Artists
+    type: file
+    path: content/artists.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: name, type: string, required: true }
+      - { name: practice, type: string }
+      - { name: image, type: image }
+      - { name: imageAlt, type: string }
+      - { name: work, label: Artwork title / caption, type: string }
+      - { name: bio, type: text }
+      - { name: url, label: Artist website or profile, type: string }
+      - { name: source, type: string }
+  - name: drops
+    label: Drops & objects
+    type: file
+    path: content/drops.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: title, type: string, required: true }
+      - { name: type, type: string }
+      - { name: year, type: string }
+      - { name: image, type: image }
+      - { name: imageAlt, type: string }
+      - { name: summary, type: text }
+      - { name: body, type: text, list: true }
+      - { name: url, label: Marketplace or purchase URL, type: string }
+      - { name: linkLabel, label: Button text, type: string }
+      - { name: source, type: string }
+  - name: journal
+    label: Journal & interviews
+    type: file
+    path: content/journal.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: title, type: string, required: true }
+      - { name: originalTitle, type: string }
+      - { name: date, label: Publication date (YYYY-MM-DD), type: string }
+      - { name: author, type: string }
+      - { name: type, type: string }
+      - { name: summary, type: text }
+      - { name: source, type: string }
+      - { name: intro, type: text }
+      - name: qa
+        label: Interview
+        type: object
+        list: true
+        fields:
+          - { name: q, label: Question, type: string }
+          - { name: a, label: Answer, type: text }

@@ -1,0 +1,283 @@
+[
+  {
+    "slug": "nft-nyc-2026",
+    "title": "Art. Cards. Community.",
+    "subtitle": "Burrito at NFT NYC ’26",
+    "city": "New York",
+    "year": "2026",
+    "dateLabel": "September 2026",
+    "status": "Past exhibition",
+    "type": "Exhibition",
+    "venue": "Lume Studios",
+    "image": "/images/nygilia-lume.webp",
+    "imageAlt": "Nygilia’s Night Walker Paradox 004 displayed on a screen at Lume Studios",
+    "credit": "Nygilia — Night Walker Paradox 004. Event image shared by Burrito.",
+    "summary": "A gallery gathering with a different kind of opening act: our first MTG draft, with card packs made by Burrito artists.",
+    "body": [
+      "We brought art to the walls and artists to the table. At Lume during NFT NYC ’26, a group exhibition met our first Magic: The Gathering draft, with custom card packs featuring work from the collective.",
+      "The exhibition included Nygilia’s Night Walker Paradox 004 and work by Desultor. The draft gave people another way to spend time with art—and with each other.",
+      "Thank you to collect.rip for sponsoring the event, and Tanarchy for documenting the draft."
+    ],
+    "artists": [
+      "nygilia",
+      "desultor"
+    ],
+    "partners": [
+      "Lume Studios",
+      "collect.rip"
+    ],
+    "sources": [
+      "https://x.com/BurritoDAO/status/2104652050793718022",
+      "https://x.com/BurritoDAO/status/2102902425124266253",
+      "https://x.com/BurritoDAO/status/2100236624864879060"
+    ],
+    "gallery": [
+      {
+        "image": "/images/desultor.webp",
+        "alt": "Work by Desultor shared from the NFT NYC 2026 exhibition",
+        "credit": "Desultor · shared in Burrito’s exhibition recap"
+      }
+    ],
+    "rsvp": ""
+  },
+  {
+    "slug": "derailler-paris",
+    "title": "Dérailler",
+    "subtitle": "Sydney’s underground in Paris",
+    "city": "Paris",
+    "year": "2026",
+    "dateLabel": "4 July 2026",
+    "status": "Past exhibition",
+    "type": "Exhibition",
+    "venue": "Le Grand Jeu",
+    "image": "/images/paris.webp",
+    "imageAlt": "Dérailler poster showing two people greeting each other near the Eiffel Tower",
+    "credit": "Dérailler event poster · shared by Burrito.",
+    "summary": "A book, a film, eleven street photographers, and an afternoon that spilled into the city.",
+    "body": [
+      "Our first event outside the US brought Burrito to Le Grand Jeu in Paris for Dérailler: Sydney’s Underground in Paris.",
+      "The afternoon brought together Jet Williams’s debut novel Off the Rails, the first screening of a film by Max Dona connected to its world, and an exhibition of eleven street photographers curated by Burrito.",
+      "We closed with a collective photo walk. Each person could take seven photographs, choose one, and vote on their favorite. Jet gave the winner a camera and ten rolls of film.",
+      "The exhibition grew from an open call for black-and-white work exploring street photography and graffiti. Submissions for this show are closed."
+    ],
+    "artists": [],
+    "partners": [
+      "Jet Williams",
+      "Max Dona",
+      "Le Grand Jeu"
+    ],
+    "sources": [
+      "https://x.com/BurritoDAO/status/2074659669058998672",
+      "https://x.com/BurritoDAO/status/2068144142392135724",
+      "https://x.com/BurritoDAO/status/2074659687774003294"
+    ],
+    "gallery": [
+      {
+        "image": "/images/paris-gallery.webp",
+        "alt": "A second view of the Dérailler event in Paris",
+        "credit": "Event documentation shared by Burrito"
+      }
+    ],
+    "rsvp": ""
+  },
+  {
+    "slug": "return-to-form",
+    "title": "Return to Form",
+    "subtitle": "A group drop, together in a room",
+    "city": "New York",
+    "year": "2025",
+    "dateLabel": "15 November 2025",
+    "status": "Past exhibition",
+    "type": "Drop + exhibition",
+    "venue": "Lume Studios",
+    "image": "/images/return-to-form.webp",
+    "imageAlt": "MP’s safehouse displayed on a gallery screen at Return to Form",
+    "credit": "MP — safehouse. Installation image shared by Burrito.",
+    "summary": "More than twenty artists. A collective release on Rarible. A night at Lume to see it together.",
+    "body": [
+      "Return to Form brought more than twenty artists’ approaches to a shared theme into one collective release, then off the screen and into Lume Studios.",
+      "The collection was live on Rarible by November 12, with the gallery event following on November 15. Artists also joined a conversation on X Spaces about the work.",
+      "Made with support from Rarible, Shape, Manifold, and the RARI Foundation community."
+    ],
+    "artists": [],
+    "partners": [
+      "Rarible",
+      "Shape",
+      "Manifold",
+      "RARI Foundation",
+      "Lume Studios"
+    ],
+    "sources": [
+      "https://x.com/BurritoDAO/status/1988691363693793452",
+      "https://x.com/BurritoDAO/status/1990561901630361604",
+      "https://x.com/BurritoDAO/status/1984989749111910618"
+    ],
+    "gallery": [
+      {
+        "image": "/images/return-to-form-poster.webp",
+        "alt": "Return to Form group drop announcement artwork",
+        "credit": "Burrito · Return to Form announcement"
+      }
+    ],
+    "rsvp": ""
+  },
+  {
+    "slug": "super-burrito-366",
+    "title": "Super Burrito 366",
+    "subtitle": "A year of looking, shared in New York",
+    "city": "New York",
+    "year": "2023",
+    "dateLabel": "2023 · legacy archive",
+    "status": "Past exhibition",
+    "type": "Exhibition",
+    "venue": "The Canvas",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "Selections from the collective’s daily curation with Joyn, exhibited with SuperchiefNFT at The Canvas.",
+    "body": [
+      "Burrito partnered with SuperchiefNFT to bring selections from its January and February curations to The Canvas in New York. The exhibition drew on a project of daily curation with Joyn.",
+      "This entry preserves the year and details recorded in the original Burrito archive."
+    ],
+    "artists": [],
+    "partners": [
+      "SuperchiefNFT",
+      "Joyn",
+      "The Canvas"
+    ],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  },
+  {
+    "slug": "miami-intertwined",
+    "title": "Intertwined",
+    "subtitle": "Connections, made visible",
+    "city": "Miami",
+    "year": "2023",
+    "dateLabel": "2023",
+    "status": "Past exhibition",
+    "type": "Exhibition",
+    "venue": "Miami",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "Artists gathering around the connections between their work, their communities, and Miami.",
+    "body": [
+      "Intertwined brought artists from different backgrounds together in Miami to share their stories through art. A gathering about the threads between people and the city around them."
+    ],
+    "artists": [],
+    "partners": [],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  },
+  {
+    "slug": "burrito-and-the-bean",
+    "title": "Burrito & the Bean",
+    "subtitle": "Art meets ETH Chicago",
+    "city": "Chicago",
+    "year": "2023",
+    "dateLabel": "2023",
+    "status": "Past exhibition",
+    "type": "Event",
+    "venue": "ETH Chicago",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "A meeting of local creativity and the wider collective during ETH Chicago.",
+    "body": [
+      "Burrito & the Bean brought artists together during ETH Chicago, making space for different practices and local perspectives to meet an engaged audience."
+    ],
+    "artists": [],
+    "partners": [],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  },
+  {
+    "slug": "burrito-bazaar",
+    "title": "Burrito Bazaar",
+    "subtitle": "A night at Lume",
+    "city": "New York",
+    "year": "2023",
+    "dateLabel": "2023",
+    "status": "Past exhibition",
+    "type": "Exhibition",
+    "venue": "Lume Studios",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "A New York gathering of artists and their work at Lume Studios.",
+    "body": [
+      "The Burrito Bazaar brought the collective to Lume Studios in New York for an exhibition and a night together. A place to discover work, meet its makers, and keep the conversation going."
+    ],
+    "artists": [],
+    "partners": [
+      "Lume Studios"
+    ],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  },
+  {
+    "slug": "art-on-tap",
+    "title": "Art on Tap",
+    "subtitle": "Burrito at ETH Denver",
+    "city": "Denver",
+    "year": "2023",
+    "dateLabel": "2023",
+    "status": "Past exhibition",
+    "type": "Event",
+    "venue": "Enigma Bazaar",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "Art, conversation, and community at Enigma Bazaar during ETH Denver.",
+    "body": [
+      "With Enigma Bazaar, Burrito made a meeting place for artists during ETH Denver. The gathering brought digital art into a local space and gave people a chance to talk about where the medium was going."
+    ],
+    "artists": [],
+    "partners": [
+      "Enigma Bazaar"
+    ],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  },
+  {
+    "slug": "think-less-vibe-more",
+    "title": "Think Less, Vibe More",
+    "subtitle": "Our first sponsored event",
+    "city": "Miami",
+    "year": "2022",
+    "dateLabel": "2022",
+    "status": "Past exhibition",
+    "type": "Event",
+    "venue": "Miami",
+    "image": "",
+    "imageAlt": "",
+    "credit": "",
+    "summary": "An early Burrito gathering built around being present with art and with each other.",
+    "body": [
+      "Think Less, Vibe More marked Burrito’s first event sponsorship. An evening in Miami with a simple invitation: spend time with the art, meet people, and enjoy being in the room."
+    ],
+    "artists": [],
+    "partners": [],
+    "sources": [
+      "https://burritodao.com/past-events/"
+    ],
+    "gallery": [],
+    "rsvp": ""
+  }
+]

@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import ExhibitionCard from '../../components/ExhibitionCard.astro';
+import exhibitions from '../../../content/exhibitions.json';
+const cities=[...new Set(exhibitions.map(e=>e.city))];const years=[...new Set(exhibitions.map(e=>e.year))];
+---
+<Layout title="Exhibitions & archive" description="Explore Burrito’s exhibitions and gatherings in New York, Paris, Miami, Denver, and Chicago.">
+<PageIntro eyebrow="Exhibitions & gatherings" title="From screens. Into rooms." text="The work travels. The friendships come with it. A growing archive of exhibitions, releases, and nights together." />
+<section class="wrap page-content"><div class="filters" aria-label="Filter exhibitions"><label>City<select id="city"><option value="">Everywhere</option>{cities.map(c=><option>{c}</option>)}</select></label><label>Year<select id="year"><option value="">All years</option>{years.map(y=><option>{y}</option>)}</select></label><p class="filter-count" aria-live="polite">{exhibitions.length} exhibitions & events</p></div><div class="exhibition-grid archive-grid">{exhibitions.map((e,i)=><ExhibitionCard exhibition={e} index={i}/>)}</div><p class="no-results" hidden>No exhibitions match these filters. Try another city or year.</p></section>
+</Layout>
+<script>
+const city=document.querySelector<HTMLSelectElement>('#city');const year=document.querySelector<HTMLSelectElement>('#year');
+function filter(){let count=0;document.querySelectorAll<HTMLElement>('.exhibition-card').forEach(card=>{const show=(!city?.value||card.dataset.city===city.value)&&(!year?.value||card.dataset.year===year.value);card.hidden=!show;if(show)count++;});const label=document.querySelector('.filter-count');if(label)label.textContent=`${count} ${count===1?'exhibition or event':'exhibitions & events'}`;const empty=document.querySelector<HTMLElement>('.no-results');if(empty)empty.hidden=count!==0;}
+city?.addEventListener('change',filter);year?.addEventListener('change',filter);
+</script>

@@ -1,0 +1,5 @@
+---
+import Layout from '../../layouts/Layout.astro';import drops from '../../../content/drops.json';
+export function getStaticPaths(){return drops.map(drop=>({params:{slug:drop.slug},props:{drop}}));}const {drop:d}=Astro.props;
+---
+<Layout title={d.title} description={d.summary} image={d.image}><div class="wrap detail-head"><a class="breadcrumb" href="/drops/">← Drops & objects</a></div><section class="wrap detail-grid"><div><p class="eyebrow">{d.type} · {d.year}</p><h1>{d.title}</h1><p class="lead">{d.summary}</p><div class="prose" style="margin-top:30px">{d.body.map(p=><p>{p}</p>)}</div><a class="button" href={d.url}>{d.linkLabel} ↗</a><div class="source-links"><a href={d.source}>Original announcement ↗</a></div></div><figure><div class="detail-photo"><img src={d.image} alt={d.imageAlt} width="900" height="900" /></div><figcaption class="caption">{d.slug==='artist-card-packs'?'Card artwork by emotionull. Artist-made proxy; not an official Magic: The Gathering product.':'Burrito · Return to Form announcement'}</figcaption></figure></section></Layout>

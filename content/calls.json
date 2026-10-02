@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "paris-2026",
+    "title": "Street stories, in black & white",
+    "location": "Paris · Dérailler",
+    "status": "closed",
+    "deadline": "",
+    "deadlineLabel": "Exhibition held 4 July 2026",
+    "summary": "The call that became our Paris exhibition: street photography and graffiti themes, seen in black and white.",
+    "requirements": [
+      "Black-and-white work",
+      "16:9 or 9:16 aspect ratio",
+      "Street photography or graffiti themes and motifs"
+    ],
+    "submissionUrl": "",
+    "source": "https://x.com/BurritoDAO/status/2069197766379659493",
+    "exhibition": "derailler-paris",
+    "fee": "Not specified in the original announcement",
+    "rights": "Not specified in the original announcement"
+  },
+  {
+    "slug": "nft-nyc-2026",
+    "title": "Burrito at NFT NYC ’26",
+    "location": "New York · Lume Studios",
+    "status": "closed",
+    "deadline": "",
+    "deadlineLabel": "Exhibition completed · September 2026",
+    "summary": "A call for work leading into our NFT NYC exhibition and community gathering at Lume.",
+    "requirements": [
+      "Historical call; submissions are closed."
+    ],
+    "submissionUrl": "",
+    "source": "https://x.com/BurritoDAO/status/2090469155526815979",
+    "exhibition": "nft-nyc-2026",
+    "fee": "Not specified in the recovered announcement",
+    "rights": "Not specified in the recovered announcement"
+  }
+]
