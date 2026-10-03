@@ -3,7 +3,7 @@ import path from 'node:path';
 const errors=[];
 const read=async name=>JSON.parse(await readFile(`content/${name}.json`,'utf8'));
 const site=await read('site');
-const collections=Object.fromEntries(await Promise.all(['exhibitions','artists','drops','calls','journal'].map(async name=>[name,await read(name)])));
+const collections=Object.fromEntries(await Promise.all(['exhibitions','team','drops','calls','journal'].map(async name=>[name,await read(name)])));
 for(const [name,records] of Object.entries(collections)){
   const seen=new Set();
   for(const record of records){
@@ -11,7 +11,6 @@ for(const [name,records] of Object.entries(collections)){
     if(seen.has(record.slug))errors.push(`${name}: duplicate slug ${record.slug}`);seen.add(record.slug);
     if(record.image&&!record.imageAlt)errors.push(`${name}/${record.slug}: missing image description`);
     if(name==='exhibitions'){
-      for(const slug of record.artists)if(!collections.artists.some(a=>a.slug===slug))errors.push(`Unknown artist ${slug}`);
       for(const image of record.gallery)if(!image.alt||!image.credit)errors.push(`${record.slug}: gallery requires alt text and credit`);
     }
     if(name==='calls'){

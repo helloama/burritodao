@@ -7,7 +7,7 @@
 | Home | A living introduction to the work and people | See the latest exhibition |
 | Exhibitions | City/year archive and individual show pages | Explore a show |
 | Open calls | Active opportunities, briefs, and closed-call archive | Submit work when a verified call is open |
-| Artists | Work-led profiles tied to exhibitions | Visit the artist |
+| Team | The people behind the collective | Follow the team |
 | Drops & objects | Digital collections and physical products | Visit the release or enquire |
 | Journal | Artist interviews and podcast | Read/listen |
 | About | Story, approach, and historical contributors | Meet/work with the collective |
@@ -22,7 +22,7 @@ Detail pages are generated from content. Privacy and a helpful 404 complete the 
 3. Cities: a compact signal of the collective’s physical reach.
 4. Three recent exhibition cards: NYC 2026, Dérailler Paris, Return to Form.
 5. Short collective statement: “We met through art. We stayed for the people.”
-6. Three artist spotlights linked to profiles and their work.
+6. A compact invitation to meet the team.
 7. Open-call panel with honest status and community route when no call is open.
 8. Artist-made objects: MTG proxy cards, linked to release detail.
 9. Partnership invitation.
@@ -36,7 +36,7 @@ Detail pages are generated from content. Privacy and a helpful 404 complete the 
 
 ## Visual direction
 
-Warm paper #F4F2EB, ink #22251F, tomato red #B52D21, muted olive #E2E5D4. Large Helvetica/Arial headlines, narrow tracking, small uppercase wayfinding and captions. No remote font request. Playful asterisk and occasional burrito language; the work has visual priority.
+Soft paper #F5F8F3, deep green ink #102B20, green #176743, and Burrito’s Linktree mint #81D8AF. Large Helvetica/Arial headlines, narrow tracking, small uppercase wayfinding and captions. No remote font request. Supplied Burrito wordmark and globe logos, with occasional burrito language; the work has visual priority.
 
 Editorial hierarchy on the homepage, quiet grids for browsing, full artwork proportions on detail pages. Artwork is contained rather than arbitrarily cropped. No mock art is presented as an artist’s work. Earlier shows without recovered images use explicit typographic archive cards.
 

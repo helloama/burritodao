@@ -94,6 +94,16 @@
       "source": "/category/articles/",
       "destination": "/journal/",
       "permanent": true
+    },
+    {
+      "source": "/artists/",
+      "destination": "/team/",
+      "permanent": true
+    },
+    {
+      "source": "/artists/:slug/",
+      "destination": "/team/",
+      "permanent": true
     }
   ],
   "headers": [

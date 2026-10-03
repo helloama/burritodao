@@ -3,16 +3,16 @@ import '../styles/global.css';
 import site from '../../content/site.json';
 const { title = 'For artists. By artists.', description = site.description, image = '/images/nygilia-lume.webp' } = Astro.props;
 const path = Astro.url.pathname;
-const nav = [['Exhibitions','/exhibitions/'],['Artists','/artists/'],['Drops & objects','/drops/'],['Journal','/journal/'],['About','/about/']];
+const nav = [['Exhibitions','/exhibitions/'],['Team','/team/'],['Drops & objects','/drops/'],['Journal','/journal/'],['About','/about/']];
 const canonical = new URL(path, Astro.site);
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f2eb" />
+    <meta name="theme-color" content="#81d8af" />
     <title>{title} — Burrito</title><meta name="description" content={description} />
-    <link rel="canonical" href={canonical} /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} /><link rel="icon" type="image/png" href="/favicon.png" />
     <meta property="og:title" content={`${title} — Burrito`} /><meta property="og:description" content={description} />
     <meta property="og:type" content="website" /><meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL(image, Astro.site)} /><meta name="twitter:card" content="summary_large_image" />
@@ -22,7 +22,7 @@ const canonical = new URL(path, Astro.site);
     <a class="skip" href="#main">Skip to content</a>
     <div class="topline"><span><i class="dot" aria-hidden="true"></i> An independent artist collective</span><a href={site.discord}>Meet us at the Burrito Bar <span aria-hidden="true">↗</span></a></div>
     <header class="header">
-      <a class="wordmark" href="/" aria-label="Burrito home">BURRITO<span class="logo-mark" aria-hidden="true">✳</span></a>
+      <a class="wordmark" href="/" aria-label="Burrito home"><img src="/images/logo-4_1.webp" alt="Burrito DAO" width="1200" height="423" /></a>
       <nav class="desktop-nav" aria-label="Main navigation">{nav.map(([name,href])=><a href={href} aria-current={path.startsWith(href)?'page':undefined}>{name}</a>)}</nav>
       <a class="button small header-submit" href="/open-calls/">Submit work <span aria-hidden="true">↗</span></a>
       <button class="menu-button" aria-expanded="false" aria-controls="mobile-nav">Menu <span aria-hidden="true">＋</span></button>
@@ -30,8 +30,8 @@ const canonical = new URL(path, Astro.site);
     </header>
     <main id="main"><slot /></main>
     <footer>
-      <div class="footer-top"><p class="eyebrow">Good art. Good people.</p><a href={site.discord} class="footer-invite">There’s room<br/>at the table. <span aria-hidden="true">↗</span></a><div class="footer-links"><a href={site.discord}>Join Discord ↗</a><a href={site.twitter}>Follow on X ↗</a><a href={site.podcast}>Listen to the podcast ↗</a><a href="/contact/">Partner / book us ↗</a></div></div>
-      <div class="footer-wordmark" aria-hidden="true">BURRITO<span>✳</span></div>
+      <div class="footer-top"><p class="eyebrow">Good art. Good people.</p><a href={site.discord} class="footer-invite">There’s room<br/>at the table. <span aria-hidden="true">↗</span></a><div class="footer-links"><a href={site.discord}>Join Discord ↗</a><a href={site.twitter}>Follow on X ↗</a><a href="/podcast/">Listen to the podcast ↗</a><a href="/contact/">Partner / book us ↗</a></div></div>
+      <div class="footer-wordmark"><img src="/images/logo-2_1.webp" alt="Burrito DAO" width="1200" height="773" loading="lazy" /></div>
       <div class="footer-bottom"><span>For artists. By artists. Since 2021.</span><span>Art belongs to its artists.</span><a href="/privacy/">Privacy</a><a href="/contact/">Get in touch ↗</a></div>
     </footer>
     <script>

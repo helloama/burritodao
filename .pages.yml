@@ -42,7 +42,13 @@ content:
       - { name: credit, label: Artwork & photo credit, type: string }
       - { name: summary, type: text, required: true }
       - { name: body, label: Story paragraphs, type: text, list: true }
-      - { name: artists, label: Artist slugs, type: string, list: true }
+      - name: credits
+        label: Exhibition credits
+        type: object
+        list: true
+        fields:
+          - { name: name, type: string }
+          - { name: url, type: string }
       - { name: partners, type: string, list: true }
       - { name: sources, label: Source URLs, type: string, list: true }
       - name: gallery
@@ -76,22 +82,16 @@ content:
       - { name: exhibition, label: Related exhibition slug, type: string }
       - { name: fee, label: Fees or no fee, type: string }
       - { name: rights, label: Artwork usage and rights terms, type: text }
-  - name: artists
-    label: Artists
+  - name: team
+    label: Team
     type: file
-    path: content/artists.json
+    path: content/team.json
     format: json
     list: true
     fields:
       - { name: slug, type: string, required: true }
       - { name: name, type: string, required: true }
-      - { name: practice, type: string }
-      - { name: image, type: image }
-      - { name: imageAlt, type: string }
-      - { name: work, label: Artwork title / caption, type: string }
-      - { name: bio, type: text }
-      - { name: url, label: Artist website or profile, type: string }
-      - { name: source, type: string }
+      - { name: url, label: Profile URL, type: string }
   - name: drops
     label: Drops & objects
     type: file

@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';import PageIntro from '../../components/PageIntro.astro';import episodes from '../../../content/podcast.json';import site from '../../../content/site.json';
+---
+<Layout title="The Burrito podcast archive" description="122 conversations with artists, photographers, musicians, collectors, and friends. Explore the Burrito podcast archive from 2022–2023.">
+ <PageIntro eyebrow="122 conversations / 2022—2023" title="Pull up a chair." text="From the studio to the group chat. Artists on their work, their worlds, and everything in between." />
+ <section class="wrap page-content"><div class="podcast"><div><h2>From the Burrito Bar</h2><p>The original recordings, together in one place. Search by guest or episode, then listen on your platform.</p></div><a class="button" href={site.podcast}>Listen on Spotify ↗</a></div>
+ <div class="filters"><label for="episode-search">Find a conversation<input id="episode-search" type="search" placeholder="Artist, title, or topic" /></label><label for="episode-type">Browse<select id="episode-type"><option value="">All episodes</option><option>Artist conversations</option><option>Community & panels</option></select></label><p id="episode-count" class="filter-count" aria-live="polite">{episodes.length} episodes</p></div>
+ {episodes.map(e=><article id={e.id} class="episode-row" data-search={`${e.title} ${e.guests.map(g=>g.name).join(' ')}`.toLowerCase()} data-category={e.category}><span class="eyebrow">{e.date}<br/>{e.category}</span><div><h2><a href={e.url}>{e.title}</a></h2><p class="episode-guests">{e.guests.map((g,i)=><>{i>0?' · ':''}<a href={g.url}>{g.name}</a></>)}</p></div><a class="text-link" href={e.url} aria-label={`Listen to ${e.title}`}>Listen ↗</a></article>)}<p class="no-results" id="episode-empty" hidden>No matching conversations. Try an artist’s name or a different topic.</p>
+ </section>
+</Layout>
+<script>
+ const s=document.querySelector<HTMLInputElement>('#episode-search');const t=document.querySelector<HTMLSelectElement>('#episode-type');const rows=[...document.querySelectorAll<HTMLElement>('.episode-row')];function filter(){let n=0;rows.forEach(r=>{r.hidden=!(r.dataset.search?.includes((s?.value||'').trim().toLowerCase())&&(!t?.value||t.value===r.dataset.category));if(!r.hidden)n++;});document.querySelector('#episode-count')!.textContent=`${n} episodes`;document.querySelector<HTMLElement>('#episode-empty')!.hidden=n>0;}s?.addEventListener('input',filter);t?.addEventListener('change',filter);
+</script>

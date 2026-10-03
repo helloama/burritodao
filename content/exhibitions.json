@@ -18,10 +18,6 @@
       "The exhibition included Nygilia’s Night Walker Paradox 004 and work by Desultor. The draft gave people another way to spend time with art—and with each other.",
       "Thank you to collect.rip for sponsoring the event, and Tanarchy for documenting the draft."
     ],
-    "artists": [
-      "nygilia",
-      "desultor"
-    ],
     "partners": [
       "Lume Studios",
       "collect.rip"
@@ -38,7 +34,17 @@
         "credit": "Desultor · shared in Burrito’s exhibition recap"
       }
     ],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "Nygilia",
+        "url": "https://x.com/nygi_xxv"
+      },
+      {
+        "name": "Desultor",
+        "url": "https://x.com/desultor"
+      }
+    ]
   },
   {
     "slug": "derailler-paris",
@@ -60,7 +66,6 @@
       "We closed with a collective photo walk. Each person could take seven photographs, choose one, and vote on their favorite. Jet gave the winner a camera and ten rolls of film.",
       "The exhibition grew from an open call for black-and-white work exploring street photography and graffiti. Submissions for this show are closed."
     ],
-    "artists": [],
     "partners": [
       "Jet Williams",
       "Max Dona",
@@ -78,7 +83,8 @@
         "credit": "Event documentation shared by Burrito"
       }
     ],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": []
   },
   {
     "slug": "return-to-form",
@@ -99,7 +105,6 @@
       "The collection was live on Rarible by November 12, with the gallery event following on November 15. Artists also joined a conversation on X Spaces about the work.",
       "Made with support from Rarible, Shape, Manifold, and the RARI Foundation community."
     ],
-    "artists": [],
     "partners": [
       "Rarible",
       "Shape",
@@ -114,20 +119,322 @@
     ],
     "gallery": [
       {
-        "image": "/images/return-to-form-poster.webp",
-        "alt": "Return to Form group drop announcement artwork",
-        "credit": "Burrito · Return to Form announcement"
+        "image": "/images/return-to-form-24.webp",
+        "alt": "a day in the life by desultor",
+        "credit": "desultor — a day in the life"
+      },
+      {
+        "image": "/images/return-to-form-32.webp",
+        "alt": "Illusive Orbit by Nubianizm",
+        "credit": "Nubianizm — Illusive Orbit"
+      },
+      {
+        "image": "/images/return-to-form-8.webp",
+        "alt": "The Return by harvmcm",
+        "credit": "harvmcm — The Return"
+      },
+      {
+        "image": "/images/return-to-form-28.webp",
+        "alt": "safehouse by MP",
+        "credit": "MP — safehouse"
+      },
+      {
+        "image": "/images/return-to-form-4.webp",
+        "alt": "a Feeling called home by Trizton",
+        "credit": "Trizton — a Feeling called home"
+      },
+      {
+        "image": "/images/return-to-form-12.webp",
+        "alt": "Mage's Respite by KREEPSHOW",
+        "credit": "KREEPSHOW — Mage's Respite"
+      },
+      {
+        "image": "/images/return-to-form-5.webp",
+        "alt": "E S S E N C E / / by Danil Pan",
+        "credit": "Danil Pan — E S S E N C E / /"
+      },
+      {
+        "image": "/images/return-to-form-13.webp",
+        "alt": "Reminiscence by Mayra Rae",
+        "credit": "Mayra Rae — Reminiscence"
+      },
+      {
+        "image": "/images/return-to-form-29.webp",
+        "alt": "Home Paranoia by SORRISO",
+        "credit": "SORRISO — Home Paranoia"
+      },
+      {
+        "image": "/images/return-to-form-9.webp",
+        "alt": "Home Is Where You Fish by Zaid Kirdssey",
+        "credit": "Zaid Kirdssey — Home Is Where You Fish"
+      },
+      {
+        "image": "/images/return-to-form-33.webp",
+        "alt": "Strange St. (Abridged) by shaux:radio",
+        "credit": "shaux:radio — Strange St. (Abridged)"
+      },
+      {
+        "image": "/images/return-to-form-25.webp",
+        "alt": "Metanoia: The Rebirth by Serena Longoria",
+        "credit": "Serena Longoria — Metanoia: The Rebirth"
+      },
+      {
+        "image": "/images/return-to-form-2.webp",
+        "alt": "Pressure Makes Diamonds. by AnjolaDave",
+        "credit": "AnjolaDave — Pressure Makes Diamonds."
+      },
+      {
+        "image": "/images/return-to-form-22.webp",
+        "alt": "Gilt by Raz Does Art",
+        "credit": "Raz Does Art — Gilt"
+      },
+      {
+        "image": "/images/return-to-form-34.webp",
+        "alt": "Welcome Home by Emotionull",
+        "credit": "Emotionull — Welcome Home"
+      },
+      {
+        "image": "/images/return-to-form-18.webp",
+        "alt": "remember  by Shaniah",
+        "credit": "Shaniah — remember "
+      },
+      {
+        "image": "/images/return-to-form-19.webp",
+        "alt": "Sinking by Yuser",
+        "credit": "Yuser — Sinking"
+      },
+      {
+        "image": "/images/return-to-form-23.webp",
+        "alt": "Splinter Cycle by lampwrecked",
+        "credit": "lampwrecked — Splinter Cycle"
+      },
+      {
+        "image": "/images/return-to-form-3.webp",
+        "alt": "La Tour by Jerome Paressant",
+        "credit": "Jerome Paressant — La Tour"
+      },
+      {
+        "image": "/images/return-to-form-16.webp",
+        "alt": "Where do we go...from here? by nicoleruggiero",
+        "credit": "nicoleruggiero — Where do we go...from here?"
+      },
+      {
+        "image": "/images/return-to-form-20.webp",
+        "alt": "Everywhere and Nowhere by Tana Marie",
+        "credit": "Tana Marie — Everywhere and Nowhere"
+      },
+      {
+        "image": "/images/return-to-form-17.webp",
+        "alt": "Rise My Child by Cliffballin",
+        "credit": "Cliffballin — Rise My Child"
+      },
+      {
+        "image": "/images/return-to-form-30.webp",
+        "alt": "m(our)ning by mewpsd",
+        "credit": "mewpsd — m(our)ning"
+      },
+      {
+        "image": "/images/return-to-form-26.webp",
+        "alt": "Reversio ad Calvariam | Onin cuepa tlāctli  | Return to the Skull | Here one returns to the Body | by Creatress Sarai",
+        "credit": "Creatress Sarai — Reversio ad Calvariam | Onin cuepa tlāctli  | Return to the Skull | Here one returns to the Body |"
+      },
+      {
+        "image": "/images/return-to-form-6.webp",
+        "alt": "Little Miss Sunshine Part V: Growing Pains by Shi / YourFavePotato",
+        "credit": "Shi / YourFavePotato — Little Miss Sunshine Part V: Growing Pains"
+      },
+      {
+        "image": "/images/return-to-form-11.webp",
+        "alt": "Homecoming by HC",
+        "credit": "HC — Homecoming"
+      },
+      {
+        "image": "/images/return-to-form-7.webp",
+        "alt": "Returnal by SurrealSerpentine",
+        "credit": "SurrealSerpentine — Returnal"
+      },
+      {
+        "image": "/images/return-to-form-27.webp",
+        "alt": "Genesis by Lana Denina",
+        "credit": "Lana Denina — Genesis"
+      },
+      {
+        "image": "/images/return-to-form-31.webp",
+        "alt": "The Return of the Prophet by Kye",
+        "credit": "Kye — The Return of the Prophet"
       }
     ],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "desultor",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:24"
+      },
+      {
+        "name": "Nubianizm",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:32"
+      },
+      {
+        "name": "harvmcm",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:8"
+      },
+      {
+        "name": "MP",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:28"
+      },
+      {
+        "name": "Trizton",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:4"
+      },
+      {
+        "name": "KREEPSHOW",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:12"
+      },
+      {
+        "name": "Danil Pan",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:5"
+      },
+      {
+        "name": "Mayra Rae",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:13"
+      },
+      {
+        "name": "SORRISO",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:29"
+      },
+      {
+        "name": "Zaid Kirdssey",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:9"
+      },
+      {
+        "name": "shaux:radio",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:33"
+      },
+      {
+        "name": "Serena Longoria",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:25"
+      },
+      {
+        "name": "AnjolaDave",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:2"
+      },
+      {
+        "name": "Raz Does Art",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:22"
+      },
+      {
+        "name": "Emotionull",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:34"
+      },
+      {
+        "name": "Shaniah",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:18"
+      },
+      {
+        "name": "Yuser",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:19"
+      },
+      {
+        "name": "lampwrecked",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:23"
+      },
+      {
+        "name": "Jerome Paressant",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:3"
+      },
+      {
+        "name": "nicoleruggiero",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:16"
+      },
+      {
+        "name": "Tana Marie",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:20"
+      },
+      {
+        "name": "Cliffballin",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:17"
+      },
+      {
+        "name": "mewpsd",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:30"
+      },
+      {
+        "name": "Creatress Sarai",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:26"
+      },
+      {
+        "name": "Shi / YourFavePotato",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:6"
+      },
+      {
+        "name": "HC",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:11"
+      },
+      {
+        "name": "SurrealSerpentine",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:7"
+      },
+      {
+        "name": "Lana Denina",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:27"
+      },
+      {
+        "name": "Kye",
+        "url": "https://rarible.com/shape/items/0xc3df601e2994f1a5d89fcf4f46c311657fd4abf1:31"
+      }
+    ]
+  },
+  {
+    "slug": "oculus-digital-visions",
+    "title": "Oculus: Digital Visions",
+    "subtitle": "Art meets technology at the World Trade Center",
+    "city": "New York",
+    "year": "2025",
+    "dateLabel": "27 June 2025 · 1–7 pm",
+    "status": "Past exhibition",
+    "type": "Exhibition & live performance",
+    "venue": "The Canvas 3.0 · World Trade Center Oculus",
+    "image": "/images/oculus-digital-visions.webp",
+    "imageAlt": "Oculus: Digital Visions event poster",
+    "credit": "Original event artwork from the Luma listing",
+    "summary": "Digital work, live painting, VR performance, and music inside the Oculus. An afternoon for artists to meet, make, and share.",
+    "body": [
+      "Burrito joined ONE LOVE ART and Chaz.art & Co. at The Canvas 3.0 during NFT NYC 2025. Charles “Chaz” Lowe and Joe A. led the curation, with creative direction by Jenifer Pepen.",
+      "The afternoon opened with Metallusions’ Just Like a Dream, a Daydream / Livepeer demonstration by Aris, and music by MetaDJ. Artists from ONE LOVE ART and Burrito then took over for live painting.",
+      "Creatress brought a live VR performance with music by Chaz Wesley, followed by closing performances. The programme combined curated digital work, immersive experiments, and time together."
+    ],
+    "partners": [
+      "ONE LOVE ART",
+      "Chaz.art & Co.",
+      "The Canvas 3.0"
+    ],
+    "sources": [
+      "https://luma.com/nftnyc2025"
+    ],
+    "gallery": [],
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "Creatress",
+        "url": "https://x.com/creatressart"
+      },
+      {
+        "name": "MetaDJ",
+        "url": "https://luma.com/nftnyc2025"
+      },
+      {
+        "name": "Chaz Wesley",
+        "url": "https://luma.com/nftnyc2025"
+      }
+    ]
   },
   {
     "slug": "super-burrito-366",
     "title": "Super Burrito 366",
     "subtitle": "A year of looking, shared in New York",
     "city": "New York",
-    "year": "2023",
-    "dateLabel": "2023 · legacy archive",
+    "year": "2024",
+    "dateLabel": "5 March 2024 · 12–6 pm",
     "status": "Past exhibition",
     "type": "Exhibition",
     "venue": "The Canvas",
@@ -139,17 +446,18 @@
       "Burrito partnered with SuperchiefNFT to bring selections from its January and February curations to The Canvas in New York. The exhibition drew on a project of daily curation with Joyn.",
       "This entry preserves the year and details recorded in the original Burrito archive."
     ],
-    "artists": [],
     "partners": [
       "SuperchiefNFT",
       "Joyn",
       "The Canvas"
     ],
     "sources": [
-      "https://burritodao.com/past-events/"
+      "https://burritodao.com/past-events/",
+      "https://x.com/BurritoDAO/status/1764796886546845743"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": []
   },
   {
     "slug": "miami-intertwined",
@@ -157,10 +465,10 @@
     "subtitle": "Connections, made visible",
     "city": "Miami",
     "year": "2023",
-    "dateLabel": "2023",
+    "dateLabel": "9 December 2023 · 1–7 pm",
     "status": "Past exhibition",
     "type": "Exhibition",
-    "venue": "Miami",
+    "venue": "Miami Beach Bandshell",
     "image": "",
     "imageAlt": "",
     "credit": "",
@@ -168,13 +476,103 @@
     "body": [
       "Intertwined brought artists from different backgrounds together in Miami to share their stories through art. A gathering about the threads between people and the city around them."
     ],
-    "artists": [],
     "partners": [],
     "sources": [
-      "https://burritodao.com/past-events/"
+      "https://burritodao.com/past-events/",
+      "https://x.com/BurritoDAO/status/1733232078567731567"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "Kreepshow",
+        "url": "https://x.com/kreepshowart"
+      },
+      {
+        "name": "RAM",
+        "url": "https://x.com/ram_dezin"
+      },
+      {
+        "name": "Cat Russell",
+        "url": "https://x.com/Cat_Russell_"
+      },
+      {
+        "name": "lukabraavi",
+        "url": "https://x.com/lukabraavi"
+      },
+      {
+        "name": "mudie_chatz",
+        "url": "https://x.com/mudie_chatz"
+      },
+      {
+        "name": "Hues of Gigi",
+        "url": "https://x.com/huesofgigi"
+      },
+      {
+        "name": "cechk_art",
+        "url": "https://x.com/cechk_art"
+      },
+      {
+        "name": "Harvey",
+        "url": "https://x.com/harvmcm"
+      },
+      {
+        "name": "Terrell Jones",
+        "url": "https://x.com/terrelldom"
+      },
+      {
+        "name": "WGMeets",
+        "url": "https://x.com/WGMeets"
+      },
+      {
+        "name": "SpiritVomit",
+        "url": "https://x.com/spiritvomit"
+      },
+      {
+        "name": "ChahalDesigns",
+        "url": "https://x.com/ChahalDesigns"
+      },
+      {
+        "name": "Moody Marv",
+        "url": "https://x.com/moody_marv"
+      },
+      {
+        "name": "wheresrare",
+        "url": "https://x.com/wheresrare"
+      },
+      {
+        "name": "mom02sm",
+        "url": "https://x.com/mom02sm"
+      },
+      {
+        "name": "lesCogumelos",
+        "url": "https://x.com/lesCogumelos"
+      },
+      {
+        "name": "connorgrasso_",
+        "url": "https://x.com/connorgrasso_"
+      },
+      {
+        "name": "KugutsuNFT",
+        "url": "https://x.com/KugutsuNFT"
+      },
+      {
+        "name": "Faraz",
+        "url": "https://x.com/razDoesArt"
+      },
+      {
+        "name": "paintingshi",
+        "url": "https://x.com/paintingshi"
+      },
+      {
+        "name": "squibs",
+        "url": "https://x.com/squibs"
+      },
+      {
+        "name": "suhrenuh",
+        "url": "https://x.com/suhrenuh"
+      }
+    ]
   },
   {
     "slug": "burrito-and-the-bean",
@@ -193,13 +591,47 @@
     "body": [
       "Burrito & the Bean brought artists together during ETH Chicago, making space for different practices and local perspectives to meet an engaged audience."
     ],
-    "artists": [],
     "partners": [],
     "sources": [
-      "https://burritodao.com/past-events/"
+      "https://burritodao.com/past-events/",
+      "https://x.com/BurritoDAO/status/1701604288164950444"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "sweetchurro12",
+        "url": "https://x.com/sweetchurro12"
+      },
+      {
+        "name": "Loulanweu",
+        "url": "https://x.com/Loulanweu"
+      },
+      {
+        "name": "thekidcarol",
+        "url": "https://x.com/thekidcarol"
+      },
+      {
+        "name": "wynjacks",
+        "url": "https://x.com/wynjacks"
+      },
+      {
+        "name": "bit__ter",
+        "url": "https://x.com/bit__ter"
+      },
+      {
+        "name": "katbuglione",
+        "url": "https://x.com/katbuglione"
+      },
+      {
+        "name": "cri_toby",
+        "url": "https://x.com/cri_toby"
+      },
+      {
+        "name": "emilcadeau",
+        "url": "https://x.com/emilcadeau"
+      }
+    ]
   },
   {
     "slug": "burrito-bazaar",
@@ -210,7 +642,7 @@
     "dateLabel": "2023",
     "status": "Past exhibition",
     "type": "Exhibition",
-    "venue": "Lume Studios",
+    "venue": "Lume Studios · 393 Broadway",
     "image": "",
     "imageAlt": "",
     "credit": "",
@@ -218,15 +650,37 @@
     "body": [
       "The Burrito Bazaar brought the collective to Lume Studios in New York for an exhibition and a night together. A place to discover work, meet its makers, and keep the conversation going."
     ],
-    "artists": [],
     "partners": [
       "Lume Studios"
     ],
     "sources": [
-      "https://burritodao.com/past-events/"
+      "https://burritodao.com/past-events/",
+      "https://x.com/BurritoDAO/status/1646259707064066048"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": [
+      {
+        "name": "Alhvcard / Trizton",
+        "url": "https://x.com/AlhVcarD"
+      },
+      {
+        "name": "RAM",
+        "url": "https://x.com/ram_dezin"
+      },
+      {
+        "name": "JRRDN1",
+        "url": "https://x.com/BurritoDAO/status/1645456681810132994"
+      },
+      {
+        "name": "EGODEAD",
+        "url": "https://x.com/BurritoDAO/status/1645456681810132994"
+      },
+      {
+        "name": "Vinnie Hager",
+        "url": "https://x.com/VinnieHager"
+      }
+    ]
   },
   {
     "slug": "art-on-tap",
@@ -245,7 +699,6 @@
     "body": [
       "With Enigma Bazaar, Burrito made a meeting place for artists during ETH Denver. The gathering brought digital art into a local space and gave people a chance to talk about where the medium was going."
     ],
-    "artists": [],
     "partners": [
       "Enigma Bazaar"
     ],
@@ -253,7 +706,8 @@
       "https://burritodao.com/past-events/"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": []
   },
   {
     "slug": "think-less-vibe-more",
@@ -272,12 +726,12 @@
     "body": [
       "Think Less, Vibe More marked Burrito’s first event sponsorship. An evening in Miami with a simple invitation: spend time with the art, meet people, and enjoy being in the room."
     ],
-    "artists": [],
     "partners": [],
     "sources": [
       "https://burritodao.com/past-events/"
     ],
     "gallery": [],
-    "rsvp": ""
+    "rsvp": "",
+    "credits": []
   }
 ]

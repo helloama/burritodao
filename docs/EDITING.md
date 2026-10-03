@@ -2,11 +2,11 @@
 
 ## Visual editor
 
-The `.pages.yml` file is ready for Pages CMS. After the owner connects this repository at [Pages CMS](https://pagescms.org), the editor exposes Site settings, Exhibitions, Open calls, Artists, Drops, and Journal. Save changes to GitHub and Vercel rebuilds automatically once its Git integration is connected. This is optional: the same files can be edited in GitHub.
+The `.pages.yml` file is ready for Pages CMS. After the owner connects this repository at [Pages CMS](https://pagescms.org), the editor exposes Site settings, Exhibitions, Open calls, Team, Drops, and Journal. Save changes to GitHub and Vercel rebuilds automatically once its Git integration is connected. This is optional: the same files can be edited in GitHub.
 
 ## Add an exhibition
 
-Add a record in Exhibitions. Use a stable lowercase hyphenated slug, title, city, year, date, venue, summary, and story paragraphs. Upload a photograph, write an image description, and credit the artist and photographer when known. Add original source URLs, artist slugs, partners, and extra gallery images. Keep all list fields present, even if empty. Reorder records to put the latest first.
+Add a record in Exhibitions. Use a stable lowercase hyphenated slug, title, city, year, date, venue, summary, and story paragraphs. Upload a photograph, write an image description, and credit the artist and photographer when known. Add original source URLs, exhibition credits (name and profile URL), partners, and extra gallery images. Keep all list fields present, even if empty. Reorder records to put the latest first.
 
 To feature it on the homepage, set `featuredExhibition` in Site settings to its slug. Use an image for the featured exhibition. Update its status when the event ends; event RSVP is shown only for an upcoming show with an RSVP URL.
 
@@ -16,9 +16,9 @@ Create the real submission form first. Add its URL, full brief, fee (including â
 
 The form should collect artist name, contact email, portfolio, work links, work title/medium, short statement, and agreement to the specific exhibition usage terms. Avoid requesting wallet access, private keys, or unrelated personal details. Test the actual confirmation and delivery before announcing the call.
 
-## Artists and releases
+## Team and releases
 
-Add artist records with their own work, credits, preferred name, and a verified profile URL. Use their slug in relevant exhibition records. Featured profiles are a selection, not a claim to list everyone in the collective.
+Maintain the small team list in content/team.json. There is no general artist directory or individual profile system. Artist credits belong inside each exhibition record. Podcast guests link directly to their original profiles.
 
 Drops support a marketplace URL or direct email enquiry. Check availability before adding purchase language. Do not create prices or sales claims from old announcements.
 

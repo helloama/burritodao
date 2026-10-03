@@ -54,3 +54,15 @@ Before retiring WordPress entirely, retain a host backup/export of its database 
 - Direct permanent Discord invite if replacing the Linktree short link.
 
 Do not label the closed Paris/NYC calls as open, invent deadline dates, assume a token or governance program, or promise submission fees/rights that have not been supplied.
+
+
+## October 3 update
+
+- Replaced placeholder branding with the three supplied Burrito logos. Mint #81D8AF comes from the official Linktree page.
+- Replaced the artist directory with an 11-person team list from the archived team page. Old artist routes redirect to /team/. Individual artist profiles are intentionally removed.
+- Recovered 122 podcast records from https://anchor.fm/s/b534e9b8/podcast/rss.
+- Added Oculus: Digital Visions, June 27, 2025, and its original poster from https://luma.com/nftnyc2025.
+- Recovered 29 credited artworks from Return to Form’s Rarible item metadata. Images are compressed local previews; artist ownership and original marketplace links remain visible.
+- Added Miami and Chicago credits from Burrito’s original X announcements. Corrected Super Burrito 366 to March 5, 2024 using the dated announcement.
+- The Luma profile does not expose its other event URLs publicly; no Partiful event was verified. Those records have not been invented.
+- CMS configuration is supplied; connecting Pages CMS still requires the owner’s setup.
