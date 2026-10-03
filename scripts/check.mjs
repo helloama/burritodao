@@ -41,6 +41,6 @@ for(const file of htmlFiles){const html=await readFile(file,'utf8');
 }
 for(const target of targets){try{await access(target);}catch{errors.push(`Missing local target: ${target}`);}}
 const config=JSON.parse(await readFile('vercel.json','utf8'));
-for(const redirect of config.redirects){try{await access(`dist${redirect.destination}index.html`);}catch{errors.push(`Broken redirect destination: ${redirect.destination}`);}}
+for(const redirect of config.redirects){try{await access(path.join("dist",redirect.destination, path.extname(redirect.destination)?"":"index.html"));}catch{errors.push(`Broken redirect destination: ${redirect.destination}`);}}
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
 console.log(`Checked ${htmlFiles.length} HTML pages, ${targets.size} local targets, ${config.redirects.length} redirects, and all content relationships. No missing links or images.`);

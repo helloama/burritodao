@@ -6,6 +6,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/images/mtg-event-1513.webp",
+      "destination": "/images/nygilia-lume.webp",
+      "permanent": true
+    },
+    {
       "source": "/past-events/",
       "destination": "/exhibitions/",
       "permanent": true
