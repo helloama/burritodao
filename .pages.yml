@@ -42,6 +42,13 @@ content:
       - { name: credit, label: Artwork & photo credit, type: string }
       - { name: summary, type: text, required: true }
       - { name: body, label: Story paragraphs, type: text, list: true }
+      - name: highlights
+        label: Event highlights (optional)
+        type: object
+        list: true
+        fields:
+          - { name: title, type: string }
+          - { name: text, type: text }
       - name: credits
         label: Exhibition credits
         type: object

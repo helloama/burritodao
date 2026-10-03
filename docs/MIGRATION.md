@@ -66,3 +66,7 @@ Do not label the closed Paris/NYC calls as open, invent deadline dates, assume a
 - Added Miami and Chicago credits from Burrito’s original X announcements. Corrected Super Burrito 366 to March 5, 2024 using the dated announcement.
 - The Luma profile does not expose its other event URLs publicly; no Partiful event was verified. Those records have not been invented.
 - CMS configuration is supplied; connecting Pages CMS still requires the owner’s setup.
+
+## MTG event photographs
+
+The owner supplied the private Drive folder `NFTNYC MTG 2026` on October 3, 2026. Seven photographs were selected: IMG_1505, 1509, 1510, 1513, 1516, 1528, and 1532. Local WebP copies are resized and stripped of source metadata. The folder and account details are not exposed on the public site. Captions describe visible activity; no guest identities or photographer attribution were inferred. Existing Tanarchy credit refers specifically to the previously sourced draft documentation. The event day remains unconfirmed; the archive retains September 2026.
