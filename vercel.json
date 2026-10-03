@@ -21,11 +21,6 @@
       "permanent": true
     },
     {
-      "source": "/team/",
-      "destination": "/about/",
-      "permanent": true
-    },
-    {
       "source": "/articles/",
       "destination": "/journal/",
       "permanent": true
