@@ -106,25 +106,25 @@
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path*/",
       "has": [
         {
           "type": "host",
           "value": "burritodao.vercel.app"
         }
       ],
-      "destination": "https://burritodao.com/:path*",
+      "destination": "https://burritodao.com/:path*/",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path*/",
       "has": [
         {
           "type": "host",
           "value": "www.burritodao.com"
         }
       ],
-      "destination": "https://burritodao.com/:path*",
+      "destination": "https://burritodao.com/:path*/",
       "permanent": true
     }
   ],
