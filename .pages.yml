@@ -99,6 +99,8 @@ content:
       - { name: slug, type: string, required: true }
       - { name: name, type: string, required: true }
       - { name: url, label: Profile URL, type: string }
+      - { name: founder, label: Co-founder, type: boolean }
+      - { name: role, label: Role, type: string }
       - { name: image, type: image }
       - { name: imageAlt, type: string }
       - name: status

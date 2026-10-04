@@ -5,23 +5,49 @@
     "url": "https://x.com/0x_Joe",
     "status": "current",
     "image": "/images/team-joe.webp",
-    "imageAlt": "Joe’s X profile image"
+    "imageAlt": "Joe’s X profile image",
+    "role": "Event Partnerships & Operations",
+    "founder": true
+  },
+  {
+    "slug": "cat-russell",
+    "name": "Cat",
+    "url": "https://x.com/Cat_Russell_",
+    "status": "current",
+    "image": "/images/team-cat-russell.webp",
+    "imageAlt": "Cat’s X profile image",
+    "role": "Event Solutions & Operations",
+    "founder": true
   },
   {
     "slug": "emotionull",
-    "name": "emotionull",
+    "name": "Null",
     "url": "https://x.com/em0tionull",
     "status": "current",
     "image": "/images/team-emotionull.webp",
-    "imageAlt": "emotionull’s X profile image"
+    "imageAlt": "Null’s X profile image",
+    "role": "Technical Lead",
+    "founder": true
+  },
+  {
+    "slug": "alhvcard-trizton",
+    "name": "Trizton",
+    "url": "https://x.com/AlhVcarD",
+    "status": "current",
+    "image": "/images/team-alhvcard-trizton.webp",
+    "imageAlt": "Trizton’s X profile image",
+    "role": "Event Logistics",
+    "founder": true
   },
   {
     "slug": "mew-psd",
-    "name": "Mew_psd",
+    "name": "Mew",
     "url": "https://x.com/mew_psd",
     "status": "previous",
     "image": "/images/team-mew-psd.webp",
-    "imageAlt": "Mew_psd’s X profile image"
+    "imageAlt": "Mew’s X profile image",
+    "role": "Design Lead",
+    "founder": true
   },
   {
     "slug": "elysianecstacy",
@@ -38,22 +64,6 @@
     "status": "current",
     "image": "/images/team-antholal.webp",
     "imageAlt": "Antholal’s X profile image"
-  },
-  {
-    "slug": "cat-russell",
-    "name": "Cat Russell",
-    "url": "https://x.com/Cat_Russell_",
-    "status": "current",
-    "image": "/images/team-cat-russell.webp",
-    "imageAlt": "Cat Russell’s X profile image"
-  },
-  {
-    "slug": "alhvcard-trizton",
-    "name": "Alhvcard / Trizton",
-    "url": "https://x.com/AlhVcarD",
-    "status": "current",
-    "image": "/images/team-alhvcard-trizton.webp",
-    "imageAlt": "Alhvcard / Trizton’s X profile image"
   },
   {
     "slug": "avery-adzima",
