@@ -1,0 +1,4 @@
+---
+const {person}=Astro.props;
+---
+<article class="team-card" id={person.slug}><a href={person.url}><img src={person.image} alt={person.imageAlt} width="320" height="320" loading="lazy" decoding="async" /><div class="team-card-label"><h3>{person.name}</h3><span aria-hidden="true">↗</span></div><p>@{person.url.split('/').pop()}</p></a></article>

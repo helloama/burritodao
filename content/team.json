@@ -2,56 +2,89 @@
   {
     "slug": "joe",
     "name": "Joe",
-    "url": "https://x.com/0x_Joe"
+    "url": "https://x.com/0x_Joe",
+    "status": "current",
+    "image": "/images/team-joe.webp",
+    "imageAlt": "Joe’s X profile image"
   },
   {
     "slug": "emotionull",
     "name": "emotionull",
-    "url": "https://x.com/em0tionull"
+    "url": "https://x.com/em0tionull",
+    "status": "current",
+    "image": "/images/team-emotionull.webp",
+    "imageAlt": "emotionull’s X profile image"
   },
   {
     "slug": "mew-psd",
     "name": "Mew_psd",
-    "url": "https://x.com/mew_psd"
+    "url": "https://x.com/mew_psd",
+    "status": "previous",
+    "image": "/images/team-mew-psd.webp",
+    "imageAlt": "Mew_psd’s X profile image"
   },
   {
     "slug": "elysianecstacy",
     "name": "Elysianecstacy",
-    "url": "https://x.com/elysianecstacy"
+    "url": "https://x.com/elysianecstacy",
+    "status": "current",
+    "image": "/images/team-elysianecstacy.webp",
+    "imageAlt": "Elysianecstacy’s X profile image"
   },
   {
     "slug": "antholal",
     "name": "Antholal",
-    "url": "https://x.com/antholal"
+    "url": "https://x.com/antholal",
+    "status": "current",
+    "image": "/images/team-antholal.webp",
+    "imageAlt": "Antholal’s X profile image"
   },
   {
     "slug": "cat-russell",
     "name": "Cat Russell",
-    "url": "https://x.com/Cat_Russell_"
+    "url": "https://x.com/Cat_Russell_",
+    "status": "current",
+    "image": "/images/team-cat-russell.webp",
+    "imageAlt": "Cat Russell’s X profile image"
   },
   {
     "slug": "alhvcard-trizton",
     "name": "Alhvcard / Trizton",
-    "url": "https://x.com/AlhVcarD"
+    "url": "https://x.com/AlhVcarD",
+    "status": "current",
+    "image": "/images/team-alhvcard-trizton.webp",
+    "imageAlt": "Alhvcard / Trizton’s X profile image"
   },
   {
     "slug": "avery-adzima",
     "name": "Avery Adzima",
-    "url": "https://x.com/averyadzima"
+    "url": "https://x.com/averyadzima",
+    "status": "current",
+    "image": "/images/team-avery-adzima.webp",
+    "imageAlt": "Avery Adzima’s X profile image"
   },
   {
     "slug": "reddy",
     "name": "Reddy",
-    "url": "https://x.com/RedReddNReddy"
+    "url": "https://x.com/RedReddNReddy",
+    "status": "current",
+    "image": "/images/team-reddy.webp",
+    "imageAlt": "Reddy’s X profile image"
   },
   {
     "slug": "moody-marv",
     "name": "Moody Marv",
-    "url": "https://x.com/moody_marv"
+    "url": "https://x.com/moody_marv",
+    "status": "current",
+    "image": "/images/team-moody-marv.webp",
+    "imageAlt": "Moody Marv’s X profile image"
   },
   {
     "slug": "shaux-radio",
     "name": "shaux:radio",
-    "url": "https://x.com/SHAUXRADIO"
+    "url": "https://x.com/SHAUXRADIO",
+    "status": "current",
+    "image": "/images/team-shaux-radio.webp",
+    "imageAlt": "shaux:radio’s X profile image"
   }
 ]

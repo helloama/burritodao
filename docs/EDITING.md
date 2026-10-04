@@ -31,3 +31,5 @@ Keep original date and byline on historical interviews. Do not silently update o
 Review mobile preview, image credits, alt text, dates/timezones, outbound form links, and call status. Keep source links in the content so claims can be checked later. New images belong in `public/images`, not on a temporary social-media host. Existing imported images are already local.
 
 No X API keys are needed. X was used as an editorial source for this migration; the site does not automatically repost or scrape the timeline. Curating new records avoids exposing visitors to feed failures and unreviewed posts.
+
+Team members have a `current` or `previous` status. Mew is listed under Previous team per the owner’s update. Profile images are local WebP files; sources are recorded in team-photo-sources.json. Refresh images deliberately rather than hotlinking X.

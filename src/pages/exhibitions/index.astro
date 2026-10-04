@@ -6,7 +6,7 @@ import exhibitions from '../../../content/exhibitions.json';
 const cities=[...new Set(exhibitions.map(e=>e.city))];const years=[...new Set(exhibitions.map(e=>e.year))];
 ---
 <Layout title="Exhibitions & archive" description="Explore Burrito’s exhibitions and gatherings in New York, Paris, Miami, Denver, and Chicago.">
-<PageIntro eyebrow="Exhibitions & gatherings" title="From screens. Into rooms." text="The work travels. The friendships come with it. A growing archive of exhibitions, releases, and nights together." />
+<PageIntro eyebrow="Exhibitions & gatherings" title="Exhibitions & events." text="Group shows, live art, and meetups. Browse by city or year for artwork, photographs, and event details." />
 <section class="wrap page-content"><div class="filters" aria-label="Filter exhibitions"><label>City<select id="city"><option value="">Everywhere</option>{cities.map(c=><option>{c}</option>)}</select></label><label>Year<select id="year"><option value="">All years</option>{years.map(y=><option>{y}</option>)}</select></label><p class="filter-count" aria-live="polite">{exhibitions.length} exhibitions & events</p></div><div class="exhibition-grid archive-grid">{exhibitions.map((e,i)=><ExhibitionCard exhibition={e} index={i}/>)}</div><p class="no-results" hidden>No exhibitions match these filters. Try another city or year.</p></section>
 </Layout>
 <script>

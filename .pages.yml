@@ -99,6 +99,12 @@ content:
       - { name: slug, type: string, required: true }
       - { name: name, type: string, required: true }
       - { name: url, label: Profile URL, type: string }
+      - { name: image, type: image }
+      - { name: imageAlt, type: string }
+      - name: status
+        type: select
+        options:
+          values: [current, previous]
   - name: drops
     label: Drops & objects
     type: file
