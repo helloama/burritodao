@@ -1,0 +1,6 @@
+---
+import { imageSize } from '../lib/images';
+const {src,alt, width:_width,height:_height,...rest}=Astro.props;
+const dimensions=imageSize(src);
+---
+<img {...rest} src={src} alt={alt} width={dimensions.width} height={dimensions.height} decoding="async" />

@@ -1,37 +1,45 @@
 ---
+import LocalImage from '../components/LocalImage.astro';
 import '../styles/global.css';
 import site from '../../content/site.json';
-const { title = 'For artists. By artists.', description = site.description, image = '/images/nygilia-lume.webp' } = Astro.props;
+const { title = 'Artist collective, exhibitions & open calls', description = site.description, image = '/images/nygilia-lume.webp', structuredData = [], article = false } = Astro.props;
 const path = Astro.url.pathname;
 const nav = [['Exhibitions','/exhibitions/'],['Team','/team/'],['Drops & objects','/drops/'],['Journal','/journal/'],['About','/about/']];
 const canonical = new URL(path, Astro.site);
+const origin=Astro.site!.toString();
+const labels:Record<string,string>={'exhibitions':'Exhibitions','team':'Team','open-calls':'Open calls','drops':'Drops & objects','journal':'Journal','podcast':'Podcast','about':'About','contact':'Contact','privacy':'Privacy'};
+const segments=path.split('/').filter(Boolean);
+const crumbs=[{name:'Home',url:origin},...segments.map((segment,i)=>({name:i===segments.length-1?title:(labels[segment]||segment),url:new URL('/'+segments.slice(0,i+1).join('/')+'/',origin).href}))];
+const graph=[{'@type':'Organization','@id':origin+'#collective',name:'Burrito DAO',alternateName:'Burrito',url:origin,description:site.description,logo:new URL('/images/logo-4_1.webp',origin).href,sameAs:[site.twitter,'https://linktr.ee/burritodao',site.podcast]}, {'@type':'WebSite','@id':origin+'#website',name:'Burrito DAO',url:origin,publisher:{'@id':origin+'#collective'}}, {'@type':'WebPage','@id':canonical.href+'#page',url:canonical.href,name:title,description,isPartOf:{'@id':origin+'#website'},inLanguage:'en'}, ...(segments.length?[{'@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,name:c.name,item:c.url}))}]:[]), ...structuredData];
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#81d8af" />
-    <title>{title} — Burrito</title><meta name="description" content={description} />
+    <title>{title} — Burrito DAO</title><meta name="description" content={description} />
     <link rel="canonical" href={canonical} /><link rel="icon" type="image/png" href="/favicon.png" />
-    <meta property="og:title" content={`${title} — Burrito`} /><meta property="og:description" content={description} />
-    <meta property="og:type" content="website" /><meta property="og:url" content={canonical} />
+    <meta property="og:title" content={`${title} — Burrito DAO`} /><meta property="og:description" content={description} />
+    <meta property="og:type" content={article?'article':'website'} /><meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL(image, Astro.site)} /><meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@BurritoDAO" />
+    <meta property="og:site_name" content="Burrito DAO" /><meta property="og:locale" content="en_US" />
+    <script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')} />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <div class="topline"><span><i class="dot" aria-hidden="true"></i> An independent artist collective</span><a href={site.discord}>Meet us at the Burrito Bar <span aria-hidden="true">↗</span></a></div>
     <header class="header">
-      <a class="wordmark" href="/" aria-label="Burrito home"><img src="/images/logo-4_1.webp" alt="Burrito DAO" width="1200" height="423" /></a>
+      <a class="wordmark" href="/" aria-label="Burrito home"><LocalImage src="/images/logo-4_1.webp" alt="Burrito DAO" width="1200" height="423" /></a>
       <nav class="desktop-nav" aria-label="Main navigation">{nav.map(([name,href])=><a href={href} aria-current={path.startsWith(href)?'page':undefined}>{name}</a>)}</nav>
       <a class="button small header-submit" href="/open-calls/">Submit work <span aria-hidden="true">↗</span></a>
       <button class="menu-button" aria-expanded="false" aria-controls="mobile-nav">Menu <span aria-hidden="true">＋</span></button>
       <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>{[...nav,['Submit work','/open-calls/'],['Partner / book us','/contact/']].map(([name,href])=><a href={href}>{name}<span aria-hidden="true">↗</span></a>)}</nav>
     </header>
-    <main id="main"><slot /></main>
+    <main id="main">{segments.length>0&&<nav class="wrap breadcrumbs" aria-label="Breadcrumb"><ol>{crumbs.map((c,i)=><li>{i===crumbs.length-1?<span aria-current="page">{c.name}</span>:<a href={new URL(c.url).pathname}>{c.name}</a>}</li>)}</ol></nav>}<slot /></main>
     <footer>
       <div class="footer-top"><p class="eyebrow">Burrito Bar · Discord</p><a href={site.discord} class="footer-invite">Join the<br/>Burrito Bar. <span aria-hidden="true">↗</span></a><div class="footer-links"><a href={site.discord}>Join Discord ↗</a><a href={site.twitter}>Follow on X ↗</a><a href="/podcast/">Listen to the podcast ↗</a><a href="/contact/">Partner / book us ↗</a></div></div>
-      <div class="footer-wordmark"><img src="/images/logo-2_1.webp" alt="Burrito DAO" width="1200" height="773" loading="lazy" /></div>
+      <div class="footer-wordmark"><LocalImage src="/images/logo-2_1.webp" alt="Burrito DAO" width="1200" height="773" loading="lazy" /></div>
       <div class="footer-bottom"><span>For artists. By artists. Since 2021.</span><span>Art belongs to its artists.</span><a href="/privacy/">Privacy</a><a href="/contact/">Get in touch ↗</a></div>
     </footer>
     <script>

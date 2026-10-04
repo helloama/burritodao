@@ -1,0 +1,22 @@
+{
+  "Haley": {
+    "name": "Haley",
+    "bio": "Haley contributed artist interviews and guides to the Burrito journal, including the interview with DUSTN.",
+    "url": null
+  },
+  "Mew": {
+    "name": "Mew",
+    "bio": "Mew is a previous Burrito team member who interviewed artists for the collective’s journal, including Artie Handz, Danil Pan, Max Kulchinsky, and Cliff.",
+    "url": "/team/#mew-psd"
+  },
+  "emotionull": {
+    "name": "emotionull",
+    "bio": "emotionull is an artist and developer, the creator of the Phettaverse and Clayground, and a member of Burrito. Their writing in the journal includes artist interviews and publishing guides.",
+    "url": "/team/#emotionull"
+  },
+  "MoFY’s Crypto Joe · originally published by emotionull": {
+    "name": "Joe",
+    "bio": "Joe is Burrito’s founder and head of operations. This interview was originally published by emotionull.",
+    "url": "/team/#joe"
+  }
+}

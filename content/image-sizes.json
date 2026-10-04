@@ -1,0 +1,266 @@
+{
+  "/images/desultor.jpg": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/desultor.webp": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/emotionull.jpg": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/emotionull.webp": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/logo-2_1.webp": {
+    "width": 1200,
+    "height": 773
+  },
+  "/images/logo-2_2.webp": {
+    "width": 1200,
+    "height": 773
+  },
+  "/images/logo-4_1.webp": {
+    "width": 1200,
+    "height": 423
+  },
+  "/images/mtg-event-1505.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg-event-1509.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg-event-1510.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg-event-1516.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg-event-1528.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg-event-1532.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/mtg.jpg": {
+    "width": 882,
+    "height": 1200
+  },
+  "/images/mtg.webp": {
+    "width": 882,
+    "height": 1200
+  },
+  "/images/nygilia-lume.png": {
+    "width": 675,
+    "height": 900
+  },
+  "/images/nygilia-lume.webp": {
+    "width": 675,
+    "height": 900
+  },
+  "/images/oculus-digital-visions.webp": {
+    "width": 1200,
+    "height": 1200
+  },
+  "/images/paris-gallery.jpg": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/paris-gallery.webp": {
+    "width": 510,
+    "height": 680
+  },
+  "/images/paris.jpg": {
+    "width": 1200,
+    "height": 795
+  },
+  "/images/paris.webp": {
+    "width": 1200,
+    "height": 795
+  },
+  "/images/return-to-form-11.webp": {
+    "width": 1200,
+    "height": 600
+  },
+  "/images/return-to-form-12.webp": {
+    "width": 761,
+    "height": 1200
+  },
+  "/images/return-to-form-13.webp": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/return-to-form-16.webp": {
+    "width": 1200,
+    "height": 1200
+  },
+  "/images/return-to-form-17.webp": {
+    "width": 753,
+    "height": 1200
+  },
+  "/images/return-to-form-18.webp": {
+    "width": 1200,
+    "height": 692
+  },
+  "/images/return-to-form-19.webp": {
+    "width": 675,
+    "height": 1200
+  },
+  "/images/return-to-form-2.webp": {
+    "width": 960,
+    "height": 1200
+  },
+  "/images/return-to-form-20.webp": {
+    "width": 800,
+    "height": 1200
+  },
+  "/images/return-to-form-22.webp": {
+    "width": 1200,
+    "height": 669
+  },
+  "/images/return-to-form-23.webp": {
+    "width": 675,
+    "height": 1200
+  },
+  "/images/return-to-form-24.webp": {
+    "width": 400,
+    "height": 711
+  },
+  "/images/return-to-form-25.webp": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/return-to-form-26.webp": {
+    "width": 1009,
+    "height": 718
+  },
+  "/images/return-to-form-27.webp": {
+    "width": 855,
+    "height": 1200
+  },
+  "/images/return-to-form-28.webp": {
+    "width": 1200,
+    "height": 690
+  },
+  "/images/return-to-form-29.webp": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/return-to-form-3.webp": {
+    "width": 1200,
+    "height": 800
+  },
+  "/images/return-to-form-30.webp": {
+    "width": 800,
+    "height": 1200
+  },
+  "/images/return-to-form-31.webp": {
+    "width": 1200,
+    "height": 869
+  },
+  "/images/return-to-form-32.webp": {
+    "width": 1200,
+    "height": 906
+  },
+  "/images/return-to-form-33.webp": {
+    "width": 1200,
+    "height": 654
+  },
+  "/images/return-to-form-34.webp": {
+    "width": 1000,
+    "height": 1200
+  },
+  "/images/return-to-form-4.webp": {
+    "width": 1200,
+    "height": 680
+  },
+  "/images/return-to-form-5.webp": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/return-to-form-6.webp": {
+    "width": 1200,
+    "height": 1200
+  },
+  "/images/return-to-form-7.webp": {
+    "width": 1197,
+    "height": 1200
+  },
+  "/images/return-to-form-8.webp": {
+    "width": 838,
+    "height": 1200
+  },
+  "/images/return-to-form-9.webp": {
+    "width": 675,
+    "height": 1200
+  },
+  "/images/return-to-form-poster.jpg": {
+    "width": 1200,
+    "height": 730
+  },
+  "/images/return-to-form-poster.webp": {
+    "width": 1200,
+    "height": 730
+  },
+  "/images/return-to-form.jpg": {
+    "width": 680,
+    "height": 680
+  },
+  "/images/return-to-form.webp": {
+    "width": 680,
+    "height": 680
+  },
+  "/images/team-alhvcard-trizton.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-antholal.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-avery-adzima.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-cat-russell.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-elysianecstacy.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-emotionull.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-joe.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-mew-psd.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-moody-marv.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-reddy.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "/images/team-shaux-radio.webp": {
+    "width": 320,
+    "height": 320
+  }
+}

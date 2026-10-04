@@ -1,9 +1,10 @@
 ---
+import LocalImage from './LocalImage.astro';
 const { exhibition:e, index = 0 } = Astro.props;
 ---
 <article class="exhibition-card" data-city={e.city} data-year={e.year}>
   <a href={`/exhibitions/${e.slug}/`} class="card-image" aria-label={`Explore ${e.title}`}>
-    {e.image ? <img src={e.image} alt={e.imageAlt} loading="lazy" width="800" height="800" /> : <div class="archive-art" aria-hidden="true"><span>{e.city}</span><strong>{e.year}</strong><i>✳</i></div>}
+    {e.image ? <LocalImage src={e.image} alt={e.imageAlt} loading="lazy" width="800" height="800" /> : <div class="archive-art" aria-hidden="true"><span>{e.city}</span><strong>{e.year}</strong><i>✳</i></div>}
     <span class="card-index">{String(index+1).padStart(2,'0')}</span><span class="card-arrow" aria-hidden="true">↗</span>
   </a>
   <div class="card-meta"><span>{e.city} · {e.year}</span><span>{e.type}</span></div>

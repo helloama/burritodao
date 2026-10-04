@@ -41,6 +41,31 @@ for(const file of htmlFiles){const html=await readFile(file,'utf8');
 }
 for(const target of targets){try{await access(target);}catch{errors.push(`Missing local target: ${target}`);}}
 const config=JSON.parse(await readFile('vercel.json','utf8'));
-for(const redirect of config.redirects){try{await access(path.join("dist",redirect.destination, path.extname(redirect.destination)?"":"index.html"));}catch{errors.push(`Broken redirect destination: ${redirect.destination}`);}}
+for(const redirect of config.redirects){if(redirect.has?.some(h=>h.type==='host')){if(!redirect.destination.startsWith('https://burritodao.com/'))errors.push('Host redirect must use canonical domain');continue;}try{await access(path.join("dist",new URL(redirect.destination,"https://burritodao.com").pathname, path.extname(new URL(redirect.destination,"https://burritodao.com").pathname)?"":"index.html"));}catch{errors.push(`Broken redirect destination: ${redirect.destination}`);}}
+
+const sizes=await read('image-sizes');
+const titles=new Map(),descriptions=new Map(),pages=new Map();
+for(const file of htmlFiles){
+ const html=await readFile(file,'utf8');const route=file==='dist/index.html'?'/':file.replace(/^dist/,'').replace(/index\.html$/,'');
+ const title=html.match(/<title>(.*?)<\/title>/)?.[1];const description=html.match(/name="description" content="([^"]*)"/)?.[1];
+ for(const [label,value,map] of [['title',title,titles],['description',description,descriptions]]){if(!value?.trim())errors.push(`${file}: empty ${label}`);else if(map.has(value))errors.push(`${file}: duplicate ${label} with ${map.get(value)}`);else map.set(value,file);}
+ if(/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html))errors.push(`${file}: noindex blocks crawling`);
+ const canonical=html.match(/rel="canonical" href="([^"]*)"/)?.[1];
+ if(file!=='dist/404.html'&&canonical!==`https://burritodao.com${route}`)errors.push(`${file}: wrong canonical ${canonical}`);
+ for(const img of html.matchAll(/<img\b[^>]*>/g)){const src=img[0].match(/src="([^"]+)"/)?.[1];const width=Number(img[0].match(/width="(\d+)"/)?.[1]),height=Number(img[0].match(/height="(\d+)"/)?.[1]);if(!width||!height)errors.push(`${file}: image missing dimensions`);if(src&&sizes[src]&&(width!==sizes[src].width||height!==sizes[src].height))errors.push(`${file}: inaccurate image dimensions ${src}`);}
+ let graph=[];for(const schema of html.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>(.*?)<\/script>/gs)){try{graph.push(...JSON.parse(schema[1])['@graph']);}catch{errors.push(`${file}: invalid structured data`);}}
+ if(!graph.some(x=>x['@type']==='Organization'))errors.push(`${file}: missing collective schema`);
+ if(route!=='/'&&file!=='dist/404.html'&&!graph.some(x=>x['@type']==='BreadcrumbList'))errors.push(`${file}: missing breadcrumb schema`);
+ pages.set(route,{html,links:[...html.matchAll(/href="(\/[^"?#]*)/g)].map(x=>x[1])});
+}
+const reached=new Set(),queue=['/'];while(queue.length){const route=queue.shift();if(reached.has(route))continue;reached.add(route);for(const link of pages.get(route)?.links||[])if(pages.has(link)&&!reached.has(link))queue.push(link);}
+for(const route of pages.keys())if(route!=='/404.html'&&!reached.has(route))errors.push(`Orphan page ${route}`);
+const sitemap=await readFile('dist/sitemap.xml','utf8');const urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
+if(urls.length!==new Set(urls).size)errors.push('Duplicate sitemap URL');
+for(const route of pages.keys())if(route!=='/404.html'&&!urls.includes(`https://burritodao.com${route}`))errors.push(`Missing sitemap URL ${route}`);
+for(const url of urls)if(!pages.has(url.replace('https://burritodao.com','')))errors.push(`Sitemap points to unknown route ${url}`);
+for(const redirect of config.redirects.filter(r=>!r.has)){if(config.redirects.some(r=>!r.has&&r.source===new URL(redirect.destination,"https://burritodao.com").pathname))errors.push(`Redirect chain: ${redirect.source}`);}
+console.log(`SEO: ${urls.length} sitemap URLs; unique titles/descriptions; crawlable HTML; accurate image sizes; structured data; no orphan pages.`);
+
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
 console.log(`Checked ${htmlFiles.length} HTML pages, ${targets.size} local targets, ${config.redirects.length} redirects, and all content relationships. No missing links or images.`);
