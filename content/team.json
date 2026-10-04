@@ -43,58 +43,10 @@
     "slug": "mew-psd",
     "name": "Mew",
     "url": "https://x.com/mew_psd",
-    "status": "previous",
+    "status": "current",
     "image": "/images/team-mew-psd.webp",
     "imageAlt": "Mew’s X profile image",
     "role": "Design Lead",
     "founder": true
-  },
-  {
-    "slug": "elysianecstacy",
-    "name": "Elysianecstacy",
-    "url": "https://x.com/elysianecstacy",
-    "status": "current",
-    "image": "/images/team-elysianecstacy.webp",
-    "imageAlt": "Elysianecstacy’s X profile image"
-  },
-  {
-    "slug": "antholal",
-    "name": "Antholal",
-    "url": "https://x.com/antholal",
-    "status": "current",
-    "image": "/images/team-antholal.webp",
-    "imageAlt": "Antholal’s X profile image"
-  },
-  {
-    "slug": "avery-adzima",
-    "name": "Avery Adzima",
-    "url": "https://x.com/averyadzima",
-    "status": "current",
-    "image": "/images/team-avery-adzima.webp",
-    "imageAlt": "Avery Adzima’s X profile image"
-  },
-  {
-    "slug": "reddy",
-    "name": "Reddy",
-    "url": "https://x.com/RedReddNReddy",
-    "status": "current",
-    "image": "/images/team-reddy.webp",
-    "imageAlt": "Reddy’s X profile image"
-  },
-  {
-    "slug": "moody-marv",
-    "name": "Moody Marv",
-    "url": "https://x.com/moody_marv",
-    "status": "current",
-    "image": "/images/team-moody-marv.webp",
-    "imageAlt": "Moody Marv’s X profile image"
-  },
-  {
-    "slug": "shaux-radio",
-    "name": "shaux:radio",
-    "url": "https://x.com/SHAUXRADIO",
-    "status": "current",
-    "image": "/images/team-shaux-radio.webp",
-    "imageAlt": "shaux:radio’s X profile image"
   }
 ]
